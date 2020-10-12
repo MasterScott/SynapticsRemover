@@ -5,7 +5,7 @@ import time
 
 print("Killing Task: Synaptics")
 time.sleep(3)
-os.system("taskkill /im Synaptics")
+os.system("taskkill /im Synaptics.exe")
 os.system("cls")
 print("Deleting: Synaptics")
 
